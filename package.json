@@ -2,7 +2,10 @@
   "name": "prism-cli",
   "version": "0.1.0",
   "description": "Simple CLI tool to help me copy tokenized (prismified) code snipped",
-  "main": "index.js",
+  "main": "src/index.js",
+  "bin": {
+    "prism": "./src/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +25,7 @@
   "homepage": "https://github.com/zouhir/prism-cli#readme",
   "dependencies": {
     "clipboardy": "^2.0.0",
+    "mri": "^1.1.4",
     "prismjs": "^1.16.0"
   }
 }
