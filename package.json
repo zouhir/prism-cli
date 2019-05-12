@@ -1,0 +1,27 @@
+{
+  "name": "prism-cli",
+  "version": "0.1.0",
+  "description": "Simple CLI tool to help me copy tokenized (prismified) code snipped",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zouhir/prism-cli.git"
+  },
+  "keywords": [
+    "prismjs",
+    "syntaxhighlighter"
+  ],
+  "author": "Zouhir C",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zouhir/prism-cli/issues"
+  },
+  "homepage": "https://github.com/zouhir/prism-cli#readme",
+  "dependencies": {
+    "clipboardy": "^2.0.0",
+    "prismjs": "^1.16.0"
+  }
+}
